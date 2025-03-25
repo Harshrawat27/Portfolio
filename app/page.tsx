@@ -86,7 +86,11 @@ export default function Home() {
                   </p>
                 </div>
                 <div className='flex gap-2'>
-                  <Link href='https://www.learnoted.com/'>
+                  <Link
+                    href='https://www.learnoted.com/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     <Button size='sm'>
                       Visit Site <ExternalLink className='h-4 w-4' />
                     </Button>
@@ -115,7 +119,11 @@ export default function Home() {
                   </p>
                 </div>
                 <div className='flex gap-2'>
-                  <Link href='https://territory-typer-production.up.railway.app/'>
+                  <Link
+                    href='https://territory-typer-production.up.railway.app/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     <Button size='sm'>
                       Visit Site
                       <ExternalLink className='h-4 w-4' />

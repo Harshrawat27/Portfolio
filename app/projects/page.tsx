@@ -59,9 +59,15 @@ export default function ProjectsPage() {
                   </p> */}
                 </div>
                 <div className='flex gap-2'>
-                  <Button size='sm' className='gap-1'>
-                    Visit <ExternalLink className='h-4 w-4' />
-                  </Button>
+                  <Link
+                    href={project.link}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <Button size='sm' className='gap-1'>
+                      Visit <ExternalLink className='h-4 w-4' />
+                    </Button>
+                  </Link>
                   {/* <Link href={project.caseStudy}>
                     <Button size="sm" variant="outline">
                       Case Study
