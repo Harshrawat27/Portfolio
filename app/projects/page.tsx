@@ -54,9 +54,9 @@ export default function ProjectsPage() {
                     <Badge>{project.category}</Badge>
                   </div>
                   <p className='text-muted-foreground'>{project.description}</p>
-                  <p className='text-sm text-muted-foreground'>
+                  {/* <p className='text-sm text-muted-foreground'>
                     {project.longDescription}
-                  </p>
+                  </p> */}
                 </div>
                 <div className='flex gap-2'>
                   <Button size='sm' className='gap-1'>

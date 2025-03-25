@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
-import { ArrowRight, Github, Twitter } from 'lucide-react';
+import { ArrowRight, Github, Twitter, ExternalLink } from 'lucide-react';
 import Link from 'next/link';
 
 export default function Home() {
@@ -75,19 +75,26 @@ export default function Home() {
               <div className='space-y-4'>
                 <div className='space-y-2'>
                   <div className='flex items-center justify-between'>
-                    <h3 className='font-bold text-lg'>ProjectName</h3>
-                    <Badge>SaaS</Badge>
+                    <h3 className='font-bold text-lg'>LearNoted</h3>
+                    <Badge>Crome Extension</Badge>
                   </div>
                   <p className='text-muted-foreground'>
-                    A productivity tool for developers that helps manage time
-                    and tasks efficiently.
+                    Transform how you browse with LearNoted. Look up words
+                    instantly, highlight important content, and save video
+                    timestamps—all in one dashboard. Your personal web learning
+                    assistant.
                   </p>
                 </div>
                 <div className='flex gap-2'>
-                  <Button size='sm'>Visit Site</Button>
+                  <Link href='https://www.learnoted.com/'>
+                    <Button size='sm'>
+                      Visit Site <ExternalLink className='h-4 w-4' />
+                    </Button>
+                  </Link>
+                  {/* <Link href='https://www.learnoted.com/'>
                   <Button size='sm' variant='outline'>
                     Case Study
-                  </Button>
+                  </Button></Link> */}
                 </div>
               </div>
             </CardContent>
@@ -107,10 +114,15 @@ export default function Home() {
                   </p>
                 </div>
                 <div className='flex gap-2'>
-                  <Button size='sm'>Visit Site</Button>
-                  <Button size='sm' variant='outline'>
+                  <Link href='https://territory-typer-production.up.railway.app/'>
+                    <Button size='sm'>
+                      Visit Site
+                      <ExternalLink className='h-4 w-4' />
+                    </Button>
+                  </Link>
+                  {/* <Button size='sm' variant='outline'>
                     Case Study
-                  </Button>
+                  </Button> */}
                 </div>
               </div>
             </CardContent>
