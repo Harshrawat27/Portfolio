@@ -20,16 +20,16 @@ export default function Home() {
             />
           </div>
           <div>
-            <h1 className='text-3xl font-bold'>John Developer</h1>
+            <h1 className='text-3xl font-bold'>Harsh Rawat</h1>
             <p className='text-muted-foreground'>Developer & Solopreneur</p>
           </div>
           <div className='flex gap-3'>
-            <Link href='https://twitter.com' target='_blank'>
+            <Link href='https://x.com/Harshrwt27' target='_blank'>
               <Button variant='ghost' size='icon'>
                 <Twitter className='h-5 w-5' />
               </Button>
             </Link>
-            <Link href='https://github.com' target='_blank'>
+            <Link href='https://github.com/Harshrawat27' target='_blank'>
               <Button variant='ghost' size='icon'>
                 <Github className='h-5 w-5' />
               </Button>
@@ -42,10 +42,11 @@ export default function Home() {
       <section className='space-y-4'>
         <h2 className='text-2xl font-bold'>About Me</h2>
         <p className='text-muted-foreground leading-relaxed'>
-          I'm a passionate developer and indie hacker focused on building
-          products that solve real problems. With over 5 years of experience in
-          web development, I've launched several side projects while working
-          with startups to bring their ideas to life.
+          Hey, I'm Harsh from India! I'm passionate about solving problems. I
+          wasn't a 100x programmer before AI, but now I'm a 100x shipper—I build
+          and launch a lot of products. Besides tech, I'm interested in physics,
+          math, and psychology. Here, I share my thoughts, POV, and sometimes my
+          side projects.
         </p>
         <div className='flex flex-wrap gap-2 pt-2'>
           <Badge>JavaScript</Badge>
