@@ -105,12 +105,13 @@ export default function Home() {
               <div className='space-y-4'>
                 <div className='space-y-2'>
                   <div className='flex items-center justify-between'>
-                    <h3 className='font-bold text-lg'>AppName</h3>
-                    <Badge>Mobile App</Badge>
+                    <h3 className='font-bold text-lg'>Territory Typer</h3>
+                    <Badge>Web Game</Badge>
                   </div>
                   <p className='text-muted-foreground'>
-                    An iOS and Android app for tracking daily habits and
-                    building routines.
+                    Typing websites are boring to make it fun. I created a
+                    mulitplayer game where you can type with you friends to win
+                    a territory
                   </p>
                 </div>
                 <div className='flex gap-2'>
