@@ -22,7 +22,7 @@ export function Dock() {
 
   const links = [
     { href: '/', icon: Home, label: 'Home' },
-    { href: '/thoughts', icon: Newspaper, label: 'Thoughts' },
+    // { href: '/thoughts', icon: Newspaper, label: 'Thoughts' },
     { href: '/projects', icon: Briefcase, label: 'Projects' },
     { href: '/contact', icon: Mail, label: 'Contact' },
   ];

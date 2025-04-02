@@ -140,7 +140,7 @@ export default function Home() {
       </section>
 
       {/* Recent Blog Posts */}
-      <section className='space-y-6'>
+      {/* <section className='space-y-6'>
         <div className='flex items-center justify-between'>
           <h2 className='text-2xl font-bold'>Recent Posts</h2>
           <Link href='/blog'>
@@ -183,7 +183,7 @@ export default function Home() {
             </article>
           </Link>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }
